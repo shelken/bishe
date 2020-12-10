@@ -48,5 +48,6 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "entryPagePath": "pages/test1/test1"
+  "entryPagePath": "pages/test1/test1",
+  "debug":true
 }
