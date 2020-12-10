@@ -1,4 +1,8 @@
 <!--index.wxml-->
+<cu-custom bgColor="bg-gradual-pink" isBack="{{isBack}}">
+	<view slot="backText">返回</view>
+	<view slot="content">导航栏</view>
+</cu-custom>
 <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>

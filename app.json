@@ -2,14 +2,15 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/test1/test1"
+    "pages/test1/test1",
+    "pages/course/course"
   ],
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#542687",
     "navigationBarTitleText": "shenche",
     "navigationBarTextStyle":"white",
-    "navigationStyle": "default",
+    "navigationStyle": "custom",
     "backgroundColor": "#154287",
     "enablePullDownRefresh": true
   },
@@ -23,14 +24,20 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index-select.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "课程",
+        "iconPath": "images/course.png",
+        "selectedIconPath": "images/course-select.png"
       },
       {
         "pagePath": "pages/test1/test1",
         "text": "我的",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-select.png"
       }
     ]
   },
@@ -48,5 +55,8 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "entryPagePath": "pages/test1/test1"
+  "entryPagePath": "pages/index/index",
+  "usingComponents": {
+    "cu-custom":"/colorui/components/cu-custom"
+  }
 }
