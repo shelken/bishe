@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test1/test1"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#542687",
+    "navigationBarTitleText": "shenche",
+    "navigationBarTextStyle":"white",
+    "navigationStyle": "default",
+    "backgroundColor": "#154287",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#121222",
+    "selectedColor": "#87451d",
+    "backgroundColor": "white",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/test1/test1",
+        "text": "我的",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "debug": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "dddddd"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "entryPagePath": "pages/test1/test1"
+}
